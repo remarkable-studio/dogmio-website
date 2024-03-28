@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
-  @apply bg-neutral-lower antialiased;
+  @apply bg-neutral-lower subpixel-antialiased;
 }
+
+/* :root{
+  --bg-1: #E45A84;
+  --bg-2: #FFACAC;
+  --bg-3: #583C87;
+} */

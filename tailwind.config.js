@@ -14,8 +14,7 @@ export default {
   darkMode: ['class', '[data-mode="dark"]'],
   theme: {
     fontFamily: {
-      sans: ['Inter', 'system-ui', 'sans-serif'],
-      mono: ['Space Mono', 'monospace'],
+      sans: ['Space Grotesk', 'system-ui', 'sans-serif'],
     },
     extend: {
       fontSize: {
@@ -94,7 +93,7 @@ export default {
           lineHeight: '0.8125rem'
         },
         '.text-bold': { fontWeight: config('theme.fontWeight.bold') },
-        '.text-label': { fontWeight: config('theme.fontWeight.semibold') }
+        '.text-label': { fontWeight: config('theme.fontWeight.medium'), letterSpacing: '.03rem' }
       });
     }),
     createThemes(
