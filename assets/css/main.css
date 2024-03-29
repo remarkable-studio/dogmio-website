@@ -7,9 +7,3 @@
 body{
   @apply bg-neutral-lower subpixel-antialiased;
 }
-
-/* :root{
-  --bg-1: #E45A84;
-  --bg-2: #FFACAC;
-  --bg-3: #583C87;
-} */

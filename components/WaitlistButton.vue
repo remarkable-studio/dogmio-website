@@ -1,54 +1,13 @@
 <script setup lang="ts">
-import {
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogOverlay,
-  AlertDialogPortal,
-  AlertDialogRoot,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from 'radix-vue'
 
 function handleAction() {
-  alert('clicked action button!')
+  (window as any).mjOpenPopin('762abadc939580178898')
 }
 </script>
 
 <template>
-  <AlertDialogRoot>
-    <AlertDialogTrigger
-      class="button"
-    >
-      Join the waitlist
-    </AlertDialogTrigger>
-    <AlertDialogPortal>
-      <AlertDialogOverlay class="bg-neutral-hightest/80 data-[state=open]:animate-overlayShow fixed inset-0 z-30" />
-      <AlertDialogContent
-        class="z-[100] data-[state=open]:animate-contentShow fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[700px] translate-x-[-50%] translate-y-[-50%] rounded-lg bg-neutral-lowest p-8 shadow-xl focus:outline-none"
-      >
-        <AlertDialogTitle class="h3 text-neutral-hightest mb-2">
-          Are you absolutely sure?
-        </AlertDialogTitle>
-        <AlertDialogDescription class="text-small text-neutral-medium">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/z-gN2lyt3ho?si=PBDcv2UZAkDs0azG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </AlertDialogDescription>
-        <div class="flex justify-end gap-2 mt-4">
-          <AlertDialogCancel
-            class="button negative"
-          >
-            Cancel
-          </AlertDialogCancel>
-          <AlertDialogAction
-            class="button"
-          >
-            Yes, delete account
-          </AlertDialogAction>
-        </div>
-      </AlertDialogContent>
-    </AlertDialogPortal>
-  </AlertDialogRoot>
+  <button class="button" @click="handleAction()">Join the waitlist</button>
+
 </template>
 
 <style scoped>
