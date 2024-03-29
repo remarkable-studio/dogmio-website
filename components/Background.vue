@@ -7,11 +7,6 @@
    <span></span>
    <span></span>
    <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
 </div>
 </template>
 
@@ -76,28 +71,13 @@
       background-color: var(--bg-1); top: 17%; left: 89%; animation-duration: 73s; animation-delay: -83s; transform-origin: -16vw -17vh;
     }
     &:nth-child(4) {
-      background-color: var(--bg-2); top: 78%; left: 66%; animation-duration: 110s; animation-delay: -127s; transform-origin: 16vw -21vh;
+      background-color: var(--bg-3); top: 78%; left: 66%; animation-duration: 110s; animation-delay: -127s; transform-origin: 16vw -21vh;
     }
     &:nth-child(5) {
       background-color: var(--bg-2); top: 85%; left: 52%; animation-duration: 28s; animation-delay: -18s; transform-origin: -8vw -9vh;
     }
     &:nth-child(6) {
       background-color: var(--bg-1); top: 40%; left: 51%; animation-duration: 100s; animation-delay: -49s; transform-origin: -16vw 3vh;
-    }
-    &:nth-child(7) {
-      background-color: var(--bg-3); top: 37%; left: 23%; animation-duration: 97s; animation-delay: -134s; transform-origin: 16vw 5vh;
-    }
-    &:nth-child(8) {
-      background-color: var(--bg-1); top: 21%; left: 93%; animation-duration: 79s; animation-delay: -131s; transform-origin: 19vw 6vh;
-    }
-    &:nth-child(9) {
-      background-color: var(--bg-2); top: 38%; left: 82%; animation-duration: 9s; animation-delay: -65s; transform-origin: -17vw 7vh;
-    }
-    &:nth-child(10) {
-      background-color: var(--bg-3); top: 70%; left: 18%; animation-duration: 124s; animation-delay: -64s; transform-origin: 25vw 17vh;
-    }
-    &:nth-child(11) {
-      background-color: var(--bg-2); top: 12%; left: 6%; animation-duration: 107s; animation-delay: -108s; transform-origin: 25vw 9vh;
     }
   }
 }
