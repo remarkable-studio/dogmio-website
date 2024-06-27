@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto relative z-10">
+  <div class="container px-6 md:px-0 mx-auto relative z-10 bg-neutral-lower">
     <NuxtPage /> 
   </div>
-  <Background/>
+  <Footer />
 </template>
