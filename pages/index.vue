@@ -11,7 +11,7 @@
       </div>
       <div class="flex flex-col lg:px-8 py-4 gap-4 items-start">
         <p class="text-small text-neutral-hight">Document your designs without leaving Figma. Our seamless integration saves you time and keeps your workflow smooth and efficient.</p>
-        <Button class="link" link="https://doc.dogm.site">How to Get Started?</Button>
+        <Button class="link" link="https://doc.dogm.site/get-started">How to Get Started?</Button>
       </div>
     </div>
     <div class="lg:-mr-px mb-8 lg:mb-0 flex-1">
