@@ -26,14 +26,14 @@
       </div>
     </div>
     <div class=" flex-1">
-      <h2 class="h2 lg:px-8 py-4"><span class="text-brand-medium">Build</span>, <span class="text-brand-medium">Share</span> And <br class="hidden lg:block"/> <span class="text-brand-medium">Maintain</span> Your Works</h2>
+      <h2 class="h2 lg:px-8 py-4"><span class="text-brand-medium">Build</span>, <span class="text-brand-medium">Share</span> And <br class="hidden lg:block"/> <span class="text-brand-medium">Maintain</span> Your Work</h2>
       <div class="w-full bg-neutral-lowest border border-neutral-low flex justify-center relative">
         <img src="/img/dogm.svg" class="absolute top-4 right-4 shadow-md rounded-lg" />
         <nuxt-img src="/img/illu3.png" class="w-[285px] mt-[50px] mb-[25px] lg:mt-[93px] lg:mb-[28px]" />
       </div>
       <div class="flex flex-col lg:px-8 py-4 gap-4 items-start">
         <p class="text-small text-neutral-hight">Enhance your Figma workflow by easily creating, sharing, and maintaining your documentation. Keep your team aligned and your projects up-to-date effortlessly.</p>
-        <Button class="link" link="https://mc6stlkssthocv2yy0pjbn.dogm.site/light/simple-starter-page">Check Out Demo Site</Button>
+        <Button class="link" link="https://mc6stlkssthocv2yy0pjbn.dogm.site/light/brand">Check Out Demo Site</Button>
       </div>
     </div>
   </div>
