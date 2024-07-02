@@ -11,7 +11,7 @@ import { Rocket } from 'lucide-vue-next';
         <Rocket :size="20" />
         Start free trial
       </Button>
-      <p class="text-small text-neutral-hight">14 days of free trial then $9.99 / month</p>
+      <p class="text-small text-neutral-hight">Unlimited docs, 14 days of free trial then $9.99/month</p>
     </div>
   </div>
 </template>
