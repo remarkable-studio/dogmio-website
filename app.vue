@@ -4,7 +4,7 @@ useSeoMeta({
   ogTitle: 'Dogm.io - Your Figma Design, Your Rules',
   description: 'The easiest way to share your design knowledge and resources from Figma',
   ogDescription: 'The easiest way to share your design knowledge and resources from Figma',
-  ogImage: 'ogimage.png',
+  ogImage: 'https://dogm.io/ogimage.png',
 })
 </script>
 
