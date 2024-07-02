@@ -1,9 +1,10 @@
 <script setup lang="ts">
-useHead({
-  title: 'Dogm.io - Share your design knowledge and resources from Figma',
-  meta: [
-    { name: 'description', content: 'The easiest way to share your design knowledge and resources from Figma' }
-  ],
+useSeoMeta({
+  title: 'Dogm.io - Your Figma Design, Your Rules',
+  ogTitle: 'Dogm.io - Your Figma Design, Your Rules',
+  description: 'The easiest way to share your design knowledge and resources from Figma',
+  ogDescription: 'The easiest way to share your design knowledge and resources from Figma',
+  ogImage: 'ogimage.png',
 })
 </script>
 
